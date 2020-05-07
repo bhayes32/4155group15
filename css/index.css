@@ -1,0 +1,80 @@
+html
+{
+	height: 100%;
+	background-color: #016938;
+}
+
+.header 
+{
+	background-color: #016938;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo
+{
+	width: 75%;
+	background-color: white;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.logo
+{
+	width: 50%;
+	max-height: width/9;
+}
+
+.body
+{
+	width: 75%;
+	min-height: 100%;
+	background-color: white;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrapper 
+{
+	width: 50%;
+	padding: 8% 0 8% 0;
+  	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+.button 
+{
+	background: #FFFFFF;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+		display: flex;
+	height: 10vh;
+	margin-top: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 6vh;
+	text-decoration: none;
+	margin-bottom: 0px;
+	color: #eee;
+}
+
+.button a
+{
+	color: #eee;
+	text-decoration:none;
+	width: 100vw;
+	background: #295136;
+	border-top: 6px solid #b5a268;
+	border-left: 6px solid #b5a268;
+	border-right: 6px solid #b5a268;
+	border-bottom: 6px solid #b5a268;
+}
+
+.button a:hover
+{
+	background: #016938;
+}
